@@ -3,25 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		FF4BE8B4288707C20077B093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BE8B3288707C20077B093 /* AppDelegate.swift */; };
-		FF4BE8B6288707C20077B093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BE8B5288707C20077B093 /* ViewController.swift */; };
 		FF4BE8B9288707C20077B093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4BE8B7288707C20077B093 /* Main.storyboard */; };
 		FF4BE8BB288707C20077B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4BE8BA288707C20077B093 /* Assets.xcassets */; };
 		FF4BE8BE288707C20077B093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4BE8BC288707C20077B093 /* LaunchScreen.storyboard */; };
+		FF4BE8C628882A280077B093 /* CallCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BE8C528882A280077B093 /* CallCollectionViewController.swift */; };
+		FF4BE8C828882A480077B093 /* CallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BE8C728882A480077B093 /* CallCollectionViewCell.swift */; };
+		FF4BE8CA28882BDA0077B093 /* ContactNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BE8C928882BDA0077B093 /* ContactNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF4BE8B0288707C20077B093 /* CallEmergenciesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallEmergenciesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4BE8B3288707C20077B093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF4BE8B5288707C20077B093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF4BE8B8288707C20077B093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF4BE8BA288707C20077B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4BE8BD288707C20077B093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF4BE8BF288707C20077B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4BE8C528882A280077B093 /* CallCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallCollectionViewController.swift; path = ../CallCollectionViewController.swift; sourceTree = "<group>"; };
+		FF4BE8C728882A480077B093 /* CallCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallCollectionViewCell.swift; path = ../CallCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF4BE8C928882BDA0077B093 /* ContactNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				FF4BE8B3288707C20077B093 /* AppDelegate.swift */,
-				FF4BE8B5288707C20077B093 /* ViewController.swift */,
 				FF4BE8B7288707C20077B093 /* Main.storyboard */,
+				FF4BE8C528882A280077B093 /* CallCollectionViewController.swift */,
+				FF4BE8C728882A480077B093 /* CallCollectionViewCell.swift */,
+				FF4BE8C928882BDA0077B093 /* ContactNumbers.swift */,
 				FF4BE8BA288707C20077B093 /* Assets.xcassets */,
 				FF4BE8BC288707C20077B093 /* LaunchScreen.storyboard */,
 				FF4BE8BF288707C20077B093 /* Info.plist */,
@@ -100,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = FF4BE8AB288707C20077B093 /* Build configuration list for PBXProject "CallEmergenciesApp" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4BE8B6288707C20077B093 /* ViewController.swift in Sources */,
+				FF4BE8CA28882BDA0077B093 /* ContactNumbers.swift in Sources */,
 				FF4BE8B4288707C20077B093 /* AppDelegate.swift in Sources */,
+				FF4BE8C828882A480077B093 /* CallCollectionViewCell.swift in Sources */,
+				FF4BE8C628882A280077B093 /* CallCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				FF4BE8C4288707C20077B093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
